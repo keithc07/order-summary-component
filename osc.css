@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     font-family: 'Red Hat Display', sans-serif;
     margin: 0;
     background: url(./images/pattern-background-desktop.svg) no-repeat;
@@ -18,6 +17,10 @@
     text-align: center;
     border-radius: 15px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .osc-h2 {
@@ -27,33 +30,50 @@
 .osc-p {
     color:  hsl(224, 23%, 55%);
     font-size: 16px;
+    width: 80%;
+    margin: 0;
 }
 
 .osc-plans-box {
     display: flex;
     justify-content: center;
-    margin: auto;
     background-color: hsl(225, 100%, 98%);
     border-radius: 15px;
     width: 80%;
+    margin: 20px 0px;
 }
 
 .osc-plan-details1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
 }
 
 .osc-plan-details2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
 .osc-plan-details3 {
-    margin-left: 30%;
+    margin-left: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.osc-plan {
+    margin-bottom: 0;
+}
+
+.osc-price {
+    color:  hsl(224, 23%, 55%);
+    font-size: 16px;
+    margin-top: 12px;
+    width: 80%;
+}
+
+.pay-button {
+    text-decoration: none;
+    width: 80%;
 }
