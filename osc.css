@@ -13,18 +13,19 @@
 
 .osc-box {
     background-color: hsl(225, 100%, 100%);
-    width: 28%;
+    width: 24%;
+    height: 65%;
     text-align: center;
     border-radius: 15px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .osc-h2 {
     color: hsl(223, 47%, 23%);
+    font-weight: 900;
 }
 
 .osc-p {
@@ -32,6 +33,7 @@
     font-size: 16px;
     width: 80%;
     margin: 0;
+    font-weight: 500;
 }
 
 .osc-plans-box {
@@ -73,7 +75,61 @@
     width: 80%;
 }
 
+.osc-change-a {
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+}
+
+.osc-change-a:hover {
+    text-decoration: none;
+    color: hsl(245, 75%, 52%, 0.7);
+}
+
 .pay-button {
     text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    color: hsl(225, 100%, 100%);
     width: 80%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    padding: 10px 0px;
+    font-weight: 500;
+    box-shadow: 0px 8px 30px hsl(245, 75%, 52%, 0.5);
+}
+
+.pay-button:hover {
+    background-color: hsl(245, 75%, 52%, 0.7);
+    box-shadow: 0px 8px 30px hsl(245, 75%, 52%, 0.3);
+}
+
+.cancel-button {
+    margin: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel-button:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 1440px) {
+    .osc-p {
+        width: 90%;
+    }
+    .osc-plans-box {
+        width: 90%;
+    }
+    .pay-button {
+        width: 90%;
+    }
+}
+
+@media (max-width: 375px) {
+    .osc-box {
+        width: 90%;
+        height: 90%;
+    }
 }
