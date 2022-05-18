@@ -7,23 +7,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="osc.css">
     <title>Order summary card</title>
   </head>
-  
-  <body>
 
-    Order Summary
-
-    You can now listen to millions of songs, audiobooks, and podcasts on any 
-    device anywhere you like!
-
-    Annual Plan
-    $59.99/year
-
-    Change
-
-    Proceed to Payment
-    Cancel Order
-
+  <body class="osc-body">
+    <main class="osc-box">
+      <img src="./images/illustration-hero.svg" alt="hero-image" />
+      <h2 class="osc-h2">Order Summary</h2>
+      <p class="osc-p">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+      <div class="osc-plans-box">
+        <div class="osc-plan-details1">
+          <img src="./images/icon-music.svg" alt="music-icon" />
+        </div>
+        <div class="osc-plan-details2">
+          <h4 class="osc-plan">Annual Plan</h4>
+          <p class="osc-p">$59.99/year</p>
+        </div>
+        <p class="osc-plan-details3">Change</p>
+      </div>
+      <button>Proceed to Payment</button>
+      <button>Cancel Order</button>
+    </main>
   </body>
 </html>

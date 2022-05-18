@@ -1,0 +1,59 @@
+.osc-body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    background: url(./images/pattern-background-desktop.svg) no-repeat;
+    background-size: 100%,100%;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.osc-box {
+    background-color: hsl(225, 100%, 100%);
+    width: 28%;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.osc-h2 {
+    color: hsl(223, 47%, 23%);
+}
+
+.osc-p {
+    color:  hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+.osc-plans-box {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    width: 80%;
+}
+
+.osc-plan-details1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.osc-plan-details2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.osc-plan-details3 {
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
